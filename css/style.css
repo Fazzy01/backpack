@@ -1,0 +1,561 @@
+body {
+    /* overflow-x: hidden; */
+    padding: 0px 40px 0px 40px;
+    background-color: #ffffff;
+}
+
+nav {}
+
+nav .navbar {}
+
+nav #target {
+    color: #66aef6;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+nav .collapse a {
+    float: right;
+    margin-right: 40px;
+}
+
+nav .collapse a span {
+    border-bottom: 3px solid ;
+
+}
+
+nav .collapse a span2 {
+    display: flex;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 2px solid #66aef6 ;
+}
+
+nav .navbar-nav {}
+
+#education .container-fluid {
+    background-color: #baddfd;
+    padding: 60px 60px 20px 60px;
+    border-radius: 10px;
+}
+
+#education .container-fluid h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#education .container-fluid p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#education .container-fluid h3 {
+    background-color: #1a87f0;
+    color: #ffffff;
+    display: block;
+    width: 180px;
+    padding: 5px 10px 5px 10px ;
+    border-radius: 5px;
+}
+
+#education .container-fluid img {
+    height: 400px;
+    width: auto;
+}
+
+
+/* ABout */
+
+#about .container-fluid {
+    margin-top: 20px;
+    margin-bottom: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#about .container-fluid h1 {
+    float: left;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 178px;
+    width: 402px;
+    background-color: #ffffff;
+    color: #1a87f0;
+    left: -157px;
+    padding: 27px 25px 27px 70px;
+    display: block;
+    border: solid 2px #1a87f0;
+    border-radius: 10px;
+    transform: rotateZ(-90deg);
+}
+
+#about .container-fluid .content {
+    background-color: #df729c;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: -90px;
+    width: 500px;
+}
+
+#about .container-fluid .content .display {
+    position: relative;
+    left: -58px;
+}
+
+#about .container-fluid .content img {
+    border: solid 2px #ffffff;
+    border-radius: 10px;
+    padding: 2px;
+    height: 170px;
+    width: 190px;
+}
+
+#about .container-fluid .content h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#about .container-fluid .content p {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+#about .container-fluid .content{}
+
+#about .container-fluid #marketing {
+    background-color: #f5e049;
+}
+
+#about .container-fluid #finance {
+    background-color:#7fd6c3;
+}
+
+#about .container-fluid #astrology {
+    background-color: #abc6fd;
+}
+
+
+
+/* why */
+
+#why .container-fluid h1 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #0f78e3;
+    text-align: center;
+    letter-spacing: px;
+    margin-bottom: 40px;
+}
+
+#why .container-fluid {
+    margin-top: 100px;
+    margin-bottom: 100px;
+} 
+
+#why .container-fluid .details{} 
+
+#why .container-fluid .details img {
+    height: 30px;
+    width: 30px;
+}
+
+#why .container-fluid .details .display {
+    position: relative;
+    left: 40px;
+    top: -20px;
+}
+
+#why .container-fluid .details .display h5 {}
+
+#why .container-fluid .details .display p {}
+
+
+/* learn */
+
+#learn .container-fluid {
+    background-color: #baddfd;
+    padding: 70px 40px 70px 40px;
+    margin-bottom: 70px;
+    border-bottom-left-radius: 40px;
+
+}
+
+#learn .container-fluid .content {
+    font-weight: 700;
+    word-spacing: 5px;
+}
+
+#learn .container-fluid .content h1 {
+    font-size: 30px;
+}
+
+#learn .container-fluid .content p {
+    font-size: 15px;
+   
+}
+
+#learn .container-fluid .content h4 {
+    font-size: 20px;
+}
+
+#learn .container-fluid .content .app {
+    display: flex;
+    padding-top: 15px;
+}
+
+#learn .container-fluid .content .app img{
+    height: 50px;
+    width: 150px;
+    margin-right: 10px;
+}
+
+#learn .container-fluid .box {
+    position: relative;
+    top: -160px;
+}
+
+#learn .container-fluid .box img {
+    height: 400px;
+    width: 200px;
+}
+
+
+
+/* Contact */
+
+#contact .container-fluid {
+    background-color: #052c4d;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #6f89a0;
+    float: left;
+    /* width: 1320px; */
+}
+
+#contact .container-fluid h1 {
+    color: #66aef6;
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#contact .container-fluid p {
+    color:  #dfeffe;
+    font-size: 17px;
+    margin-bottom: 60px;
+}
+
+#contact .container-fluid form .form-group {
+    margin-left: 2px;
+    margin-bottom: 35px;
+} 
+
+#contact .container-fluid form .form-group input {
+    background-color: #fffefa;
+    color: #cecece;
+    padding: 26px 30px 26px 16px;
+    font-size: 20px;
+}
+
+#contact .container-fluid form .form-group button {
+    background-color: #60b0f9;
+    color: #ffffff;
+    padding: 26px 35px 26px 35px;
+    
+    
+} 
+
+#contact .container-fluid form .form-group button span {
+    font-size: 20px;
+    position: relative;
+    top: -14px;
+}
+
+
+#contact .container-fluid .app {}
+
+#contact .container-fluid .app img {
+    height: 50px;
+    width: 150px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+#contact .container-fluid .categories {}
+
+#contact .container-fluid .categories h5 {
+    color: #dfeffe;
+}
+
+#contact .container-fluid .categories a {
+    text-decoration: none;
+    color: #6f89a0;
+    line-height: 30px;
+}
+
+
+#contact .container-fluid .company {} 
+
+#contact .container-fluid .company h5 {
+    color: #dfeffe;
+}
+
+#contact .container-fluid .company a {
+    text-decoration: none;
+    color: #6f89a0;
+    line-height: 30px;
+}
+
+#contact .container-fluid .legal {}
+
+#contact .container-fluid .legal h5 {
+    color: #dfeffe;
+}
+
+#contact .container-fluid .legal a {
+    text-decoration: none;
+    color: #6f89a0;
+    line-height: 30px;
+}
+
+
+
+/* footer */
+
+footer .container-fluid {
+    background-color: #052c4d;
+    color: #6f89a0;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+footer .container-fluid h6 {}
+
+footer .container-fluid .icons {
+    float: right;
+}
+
+footer .container-fluid .icons img {
+    height: 25px;
+    width: 25px;
+    padding-right: 5px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+
+
+    nav .collapse a span2 {
+        display: flex;
+        padding: 5px;
+        border-radius: 5px;
+        border: 2px solid #66aef6 ;
+    }
+
+
+
+    #education .container-fluid {
+        background-color: #baddfd;
+        padding: 60px 60px 20px 60px;
+        border-radius:;
+        justify-content: center;
+
+    }
+    
+    #education .container-fluid h1 {
+        margin-top: 20px;
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    #education .container-fluid p {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+    #education .container-fluid h3 {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-color: #1a87f0;
+        color: #ffffff;
+        display: block;
+        width: 180px;
+        padding: 5px 10px 5px 10px ;
+        border-radius: 5px;
+    }
+    
+    #education .container-fluid img {
+        float: left;
+        height: 400px;
+        width: auto;
+        position: relative;
+        left: -72px;
+    }
+
+
+    /* about */
+
+    #about .container-fluid h1 {
+        float: left;
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        position: relative;
+        top: 178px;
+        width: 402px;
+        background-color: #ffffff;
+        color: #1a87f0;
+        left: -20px;
+        padding: 27px 25px 27px 25px;
+        display: block;
+        border: solid 2px #1a87f0;
+        border-radius: 10px;
+        transform: none;
+        margin-bottom: 250px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    
+
+    #about .container-fluid {
+        margin-top: 20px;
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+    }
+  
+    
+    #about .container-fluid .content {
+        background-color: #df729c;
+        padding: 10px;
+        margin: 20px;
+        border-radius: 10px;
+        position: relative;
+        left: -60px;
+        width: 425px;
+    }
+    
+    #about .container-fluid .content .display {
+        position: relative;
+        left: -10px;
+    }
+    
+    #about .container-fluid .content img {
+        border: solid 2px #ffffff;
+        border-radius: 10px;
+        padding: 2px;
+        height: 170px;
+        width: 190px;
+    }
+    
+    #about .container-fluid .content h2 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    
+    #about .container-fluid .content p {
+        font-size: 15px;
+        font-weight: 700;
+    }
+    
+
+
+
+    #why .container-fluid .details{
+        display: flex;
+        flex-direction: column;
+        margin-right: 50px;
+        margin-bottom: 40px;
+    } 
+
+    #why .container-fluid .details .display h5 {
+        font-size: 20px;
+    }
+
+     
+    #why .container-fluid .details .display p {
+        font-size: 15px;
+        font-weight: 550;
+    }
+
+
+    
+
+
+    /* learn */
+
+    #learn .container-fluid .content .app {
+        display: flex;
+        padding-top: 15px;
+    }
+    
+    #learn .container-fluid .content .app img{
+        height: 50px;
+        width: 150px;
+        margin: 15px 10px 20px -20px;
+    }
+    
+    #learn .container-fluid .box {
+        position: relative;
+        top: -0px;
+    }
+    
+    #learn .container-fluid .box img {
+        height: 400px;
+        width: 200px;
+    }
+
+    #learn .container-fluid .content h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #learn .container-fluid .content h4 {
+        text-align: center;
+    }
+
+    #contact .container-fluid .app {
+        margin-bottom: 30px;
+    }
+
+    #contact .container-fluid .categories {
+        float: left;
+        margin-left: 25px;
+        margin-right: 50px;
+        margin-bottom: 30px;
+        
+    }
+
+    #contact .container-fluid .company {} 
+
+    #contact .container-fluid .legal {}
+
+    #contact .container-fluid h1 {
+        color: #66aef6;
+        font-size: 27px;
+        font-weight: 600;
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+
+
+}
